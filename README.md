@@ -18,12 +18,12 @@ project-root/
 ├── train.py                           [optional]  neural-network training  
 ├── predict.py                         [optional]  neural-network ensemble  
 ├── src/    
-│   └── har/    
-│       ├── __init__.py                [required]  package entry  
-│       ├── data.py                    [required]  data loading and cache building  
-│       ├── features.py                [required]  handcrafted feature extraction  
-│       ├── train_utils.py             [required]  grouped CV and evaluation helpers  
-│       └── model.py                   [optional]  neural-network model definition  
+   └── har/    
+       ├── __init__.py                [required]  package entry  
+       ├── data.py                    [required]  data loading and cache building  
+       ├── features.py                [required]  handcrafted feature extraction  
+       ├── train_utils.py             [required]  grouped CV and evaluation helpers  
+       └── model.py                   [optional]  neural-network model definition  
 ├── data.zip                             
 
 * [required] means needed to reproduce the current best method: Only LGBM.
