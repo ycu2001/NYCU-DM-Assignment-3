@@ -17,8 +17,8 @@ project-root/
 ├── predict_v2.py                      [optional]  LGBM + CatBoost ensemble  
 ├── train.py                           [optional]  neural-network training  
 ├── predict.py                         [optional]  neural-network ensemble  
-├── src/  
-│   └── har/  
+├── src/    
+│   └── har/    
 │       ├── __init__.py                [required]  package entry  
 │       ├── data.py                    [required]  data loading and cache building  
 │       ├── features.py                [required]  handcrafted feature extraction  
