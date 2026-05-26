@@ -8,6 +8,7 @@ Download all files (or at least those marked as [required] below) and place `dat
 * Depending on your environment, you may need to adjust the file paths in the cells. If you are running this on Colab, you can place all the files in the `/Data_Mining/HW3` directory to avoid modifying any paths.
 
 ## File Discriptions
+```
 project-root/  
 ├── requirements.txt                     
 ├── har.ipynb                          [required]  main  
@@ -25,6 +26,6 @@ project-root/
        ├── train_utils.py             [required]  grouped CV and evaluation helpers  
        └── model.py                   [optional]  neural-network model definition  
 ├── data.zip                             
-
+```
 * [required] means needed to reproduce the current best method: Only LGBM.
 * [optional] means useful for reference or previous experiments, but not needed for the main result.
